@@ -5,8 +5,7 @@ import "fmt"
 func main() {
 
 	fmt.Println(" ----------01 Variables function is called------------")
-	var variable int
-	variable = 100
+	var variable int = 100
 	varr := "Hii I am saurabh"
 	fmt.Println(variable)
 	fmt.Println(varr)
@@ -16,6 +15,7 @@ func main() {
 
 	dynamicDeclaration := 99
 	fmt.Println("Dynamic variable variable is : ", dynamicDeclaration)
+
 	var z, y = 10, "Saurabh"
 	fmt.Println("variable without giving type", z, y)
 
@@ -30,5 +30,8 @@ func main() {
 
 	fmt.Println(" ----------04 Array function is called------------")
 	Array()
+
+	fmt.Println(" ----------05 Slice function is called------------")
+	Slice()
 
 }
