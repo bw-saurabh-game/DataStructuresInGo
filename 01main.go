@@ -34,4 +34,10 @@ func main() {
 	fmt.Println(" ----------05 Slice function is called------------")
 	Slice()
 
+	fmt.Println(" ----------06 If else function is called------------")
+	IfElse()
+
+	fmt.Println(" ----------07 Switch Case function is called------------")
+	SwitchCase()
+
 }

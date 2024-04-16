@@ -79,4 +79,5 @@ func Slice() {
 	fmt.Printf("numbersCopy = %v\n", numbersCopy)
 	fmt.Printf("length = %d\n", len(numbersCopy))
 	fmt.Printf("capacity = %d\n", cap(numbersCopy))
+
 }
