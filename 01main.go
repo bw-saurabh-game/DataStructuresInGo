@@ -40,4 +40,15 @@ func main() {
 	fmt.Println(" ----------07 Switch Case function is called------------")
 	SwitchCase()
 
+	fmt.Println(" ----------08 For Loop function is called------------")
+	ForLoop()
+
+	fmt.Println(" ----------09 Functions function is called------------")
+	Function()
+
+	fmt.Println(" ----------10 Structs function is called------------")
+	Structs()
+
+	fmt.Println(" ----------11 Map function is called------------")
+	Map()
 }
