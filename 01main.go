@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main2() {
 
 	fmt.Println(" ----------01 Variables function is called------------")
 	var variable int = 100

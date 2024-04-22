@@ -16,14 +16,13 @@ func myFunction(x int, y string) (result int, txt1 string) {
 	return // don't need to specify valu infront of func
 }
 
-
 // Recurssion
 func testcount(x int) int {
-  if x == 11 {
-    return 0
-  }
-  fmt.Println(x)
-  return testcount(x + 1)
+	if x == 11 {
+		return 0
+	}
+	fmt.Println(x)
+	return testcount(x + 1)
 }
 
 func Function() {
@@ -32,7 +31,6 @@ func Function() {
 	familyName("Anja", 30)
 
 	fmt.Println(myFunction(5, "Hello"))
-
 
 	testcount(1)
 }
