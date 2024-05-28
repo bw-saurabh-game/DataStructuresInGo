@@ -5,14 +5,14 @@ import (
 	"time"
 )
 
-func main() {
+func Channels() {
 	ch := make(chan int)
 	// wg := sync.WaitGroup{}
 
 	go abc3(10, 20, ch)
 	go abc2(30, 20, ch)
 
-	time.Sleep(4* time.Second)
+	time.Sleep(4 * time.Second)
 
 }
 
@@ -30,7 +30,7 @@ func abc3(val1 int, val2 int, ch chan int) {
 func abc2(val1 int, val2 int, ch chan int) {
 	abd := <-ch
 	fmt.Println("Started abc2 function")
-	time.Sleep(2*time.Second)
+	time.Sleep(2 * time.Second)
 	result := val1 + val2
 
 	result += abd
